@@ -83,10 +83,10 @@ namespace WeblayerApp.Activities
             switch (position)
             {
                 case 0:
-                    fragment = Fragment1.NewInstance();
+                    fragment = homeNoticia.NewInstance();
                     break;
                 case 1:
-                    fragment = Fragment2.NewInstance();
+                    fragment = Embarcador.NewInstance();
                     break;
             }
 

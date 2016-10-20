@@ -4,6 +4,8 @@
   <string name="drawer_open">Open</string>
   <string name="drawer_close">Close</string>
   <string name="menu_refresh">Refresh</string>
-  <string name="fragment1">You are on Fragment 1</string>
-  <string name="fragment2">You are on Fragment 2</string>
+  <string name="noticias">Noticias</string>
+  <string name="embarcador">w/embarcador</string>
+  <string name="vendas">w/vendas</string>
+  <string name="suporte">w/suporte</string>
 </resources>
