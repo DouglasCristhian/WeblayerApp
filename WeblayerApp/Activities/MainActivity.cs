@@ -54,6 +54,18 @@ namespace WeblayerApp.Activities
                     case Resource.Id.nav_home_2:
                         ListItemClicked(1);
                         break;
+
+                    case Resource.Id.nav_home_vendas:
+                        ListItemClicked(3);
+                        break;
+
+                    case Resource.Id.nav_home_suporte:
+                        ListItemClicked(4);
+                        break;
+
+                    case Resource.Id.nav_home_contato:
+                        ListItemClicked(5);
+                        break;
                 }
 
                 Snackbar.Make(drawerLayout, "You selected: " + e.MenuItem.TitleFormatted, Snackbar.LengthLong)
@@ -87,6 +99,18 @@ namespace WeblayerApp.Activities
                     break;
                 case 1:
                     fragment = Embarcador.NewInstance();
+                    break;
+
+                case 2:
+                    fragment = Vendas.NewInstance();
+                    break;
+
+                case 3:
+                    fragment = Suporte.NewInstance();
+                    break;
+
+                case 4:
+                    fragment = Contato.NewInstance();
                     break;
             }
 

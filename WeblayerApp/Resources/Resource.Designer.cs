@@ -1880,6 +1880,15 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b007c
 			public const int nav_home_2 = 2131427452;
 			
+			// aapt resource value: 0x7f0b007f
+			public const int nav_home_contato = 2131427455;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int nav_home_suporte = 2131427454;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int nav_home_vendas = 2131427453;
+			
 			// aapt resource value: 0x7f0b006d
 			public const int nav_view = 2131427437;
 			

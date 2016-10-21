@@ -1,18 +1,29 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
+using Android.Support.V4.App;
 using Android.Views;
-using Android.Widget;
 
 namespace WeblayerApp.Fragments
 {
-    class Contato
+    public class Contato : Fragment
     {
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            // Create your fragment here
+        }
+
+        public static Contato NewInstance()
+        {
+            var frag1 = new Contato { Arguments = new Bundle() };
+            return frag1;
+        }
+
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            var ignored = base.OnCreateView(inflater, container, savedInstanceState);
+            return inflater.Inflate(Resource.Layout.Contato, null);
+        }
     }
 }

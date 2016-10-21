@@ -5,14 +5,31 @@
     <item
         android:id="@+id/nav_home_1"
         android:icon="@drawable/ic_home_1"
-        android:title="Home 1" />
+        android:title="Noticias" />
     <item
         android:id="@+id/nav_home_2"
         android:icon="@drawable/ic_home_2"
-        android:title="Home 2" />
+        android:title="w/embarcador" />
+
+
+    <item
+        android:id="@+id/nav_home_vendas"
+        android:icon="@drawable/ic_home_2"
+        android:title="w/vendas" />
+
+
+    <item
+       android:id="@+id/nav_home_suporte"
+       android:icon="@drawable/ic_home_2"
+       android:title="w/suporte" />
+
+    <item
+      android:id="@+id/nav_home_contato"
+      android:icon="@drawable/ic_home_2"
+      android:title="Contato" />
   </group>
 
-  <item android:title="Sub items">
+  <!--<item android:title="Sub items">
     <menu>
       <item
           android:icon="@drawable/ic_home_1"
@@ -21,6 +38,6 @@
           android:icon="@drawable/ic_home_2"
           android:title="Sub item 2" />
     </menu>
-  </item>
+  </item>-->
 
 </menu>
