@@ -1649,16 +1649,25 @@ namespace WeblayerApp
 			public const int ic_home_2 = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int ic_menu = 2130837566;
+			public const int ic_launcher_contato = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int Icon = 2130837567;
-			
-			// aapt resource value: 0x7f020041
-			public const int notification_template_icon_bg = 2130837569;
+			public const int ic_launcher_home = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int snackbar_background = 2130837568;
+			public const int ic_launcher_logobola = 2130837568;
+			
+			// aapt resource value: 0x7f020041
+			public const int ic_menu = 2130837569;
+			
+			// aapt resource value: 0x7f020042
+			public const int Icon = 2130837570;
+			
+			// aapt resource value: 0x7f020044
+			public const int notification_template_icon_bg = 2130837572;
+			
+			// aapt resource value: 0x7f020043
+			public const int snackbar_background = 2130837571;
 			
 			static Drawable()
 			{
@@ -1673,8 +1682,8 @@ namespace WeblayerApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b006e
-			public const int action0 = 2131427438;
+			// aapt resource value: 0x7f0b006f
+			public const int action0 = 2131427439;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int action_bar = 2131427415;
@@ -1700,8 +1709,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0058
 			public const int action_context_bar = 2131427416;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int action_divider = 2131427442;
+			// aapt resource value: 0x7f0b0073
+			public const int action_divider = 2131427443;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1736,8 +1745,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b004d
 			public const int buttonPanel = 2131427405;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int cancel_action = 2131427439;
+			// aapt resource value: 0x7f0b0070
+			public const int cancel_action = 2131427440;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int center = 2131427371;
@@ -1751,8 +1760,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b004f
 			public const int checkbox = 2131427407;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int chronometer = 2131427445;
+			// aapt resource value: 0x7f0b0076
+			public const int chronometer = 2131427446;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int clip_horizontal = 2131427374;
@@ -1799,8 +1808,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0015
 			public const int end = 2131427349;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int end_padder = 2131427450;
+			// aapt resource value: 0x7f0b007b
+			public const int end_padder = 2131427451;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int enterAlways = 2131427364;
@@ -1844,17 +1853,17 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b003f
 			public const int image = 2131427391;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int info = 2131427449;
+			// aapt resource value: 0x7f0b007a
+			public const int info = 2131427450;
 			
 			// aapt resource value: 0x7f0b0033
 			public const int left = 2131427379;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int line1 = 2131427443;
+			// aapt resource value: 0x7f0b0074
+			public const int line1 = 2131427444;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int line3 = 2131427447;
+			// aapt resource value: 0x7f0b0078
+			public const int line3 = 2131427448;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int listMode = 2131427338;
@@ -1862,8 +1871,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0041
 			public const int list_item = 2131427393;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int media_actions = 2131427441;
+			// aapt resource value: 0x7f0b0072
+			public const int media_actions = 2131427442;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int middle = 2131427350;
@@ -1874,20 +1883,20 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b001f
 			public const int multiply = 2131427359;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int nav_home_1 = 2131427451;
-			
 			// aapt resource value: 0x7f0b007c
-			public const int nav_home_2 = 2131427452;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int nav_home_contato = 2131427455;
-			
-			// aapt resource value: 0x7f0b007e
-			public const int nav_home_suporte = 2131427454;
+			public const int nav_home_1 = 2131427452;
 			
 			// aapt resource value: 0x7f0b007d
-			public const int nav_home_vendas = 2131427453;
+			public const int nav_home_2 = 2131427453;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int nav_home_contato = 2131427456;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int nav_home_suporte = 2131427455;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int nav_home_vendas = 2131427454;
 			
 			// aapt resource value: 0x7f0b006d
 			public const int nav_view = 2131427437;
@@ -2000,8 +2009,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0035
 			public const int start = 2131427381;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int status_bar_latest_event_content = 2131427440;
+			// aapt resource value: 0x7f0b0071
+			public const int status_bar_latest_event_content = 2131427441;
 			
 			// aapt resource value: 0x7f0b0062
 			public const int submit_area = 2131427426;
@@ -2009,11 +2018,11 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b000c
 			public const int tabMode = 2131427340;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int text = 2131427448;
+			// aapt resource value: 0x7f0b0079
+			public const int text = 2131427449;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int text2 = 2131427446;
+			// aapt resource value: 0x7f0b0077
+			public const int text2 = 2131427447;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int textSpacerNoButtons = 2131427402;
@@ -2021,8 +2030,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0066
 			public const int textView1 = 2131427430;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int time = 2131427444;
+			// aapt resource value: 0x7f0b0075
+			public const int time = 2131427445;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int title = 2131427395;
@@ -2050,6 +2059,9 @@ namespace WeblayerApp
 			
 			// aapt resource value: 0x7f0b0009
 			public const int view_offset_helper = 2131427337;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int webview = 2131427438;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int withText = 2131427355;
@@ -2348,6 +2360,9 @@ namespace WeblayerApp
 			
 			// aapt resource value: 0x7f050012
 			public const int appbar_scrolling_view_behavior = 2131034130;
+			
+			// aapt resource value: 0x7f05001b
+			public const int contato = 2131034139;
 			
 			// aapt resource value: 0x7f050015
 			public const int drawer_close = 2131034133;

@@ -56,15 +56,15 @@ namespace WeblayerApp.Activities
                         break;
 
                     case Resource.Id.nav_home_vendas:
-                        ListItemClicked(3);
+                        ListItemClicked(2);
                         break;
 
                     case Resource.Id.nav_home_suporte:
-                        ListItemClicked(4);
+                        ListItemClicked(3);
                         break;
 
                     case Resource.Id.nav_home_contato:
-                        ListItemClicked(5);
+                        ListItemClicked(4);
                         break;
                 }
 

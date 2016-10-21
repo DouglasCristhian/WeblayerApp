@@ -84,7 +84,7 @@
     <AndroidResource Include="Resources\values\dimens.xml" />
     <AndroidResource Include="Resources\layout\fragment1.xml" />
     <AndroidResource Include="Resources\layout\embarcador.xml" />
-    <AndroidResource Include="Resources\layout\main.xml" />
+    <AndroidResource Include="Resources\layout\main.axml" />
     <AndroidResource Include="Resources\layout\nav_header2.xml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
@@ -133,6 +133,9 @@
     <AndroidResource Include="Resources\drawable-mdpi\ic_menu.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_menu.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_menu.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher_logobola.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher_contato.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher_home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
