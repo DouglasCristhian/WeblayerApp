@@ -20,6 +20,7 @@ namespace WeblayerApp.Activities
         //WebView web_view;
         DrawerLayout drawerLayout;
         NavigationView navigationView;
+
         Android.Support.V4.App.Fragment fragment;
 
         protected override int LayoutResource
@@ -69,8 +70,8 @@ namespace WeblayerApp.Activities
                         break;
                 }
 
-                Snackbar.Make(drawerLayout, "You selected: " + e.MenuItem.TitleFormatted, Snackbar.LengthLong)
-                    .Show();
+                //Snackbar.Make(drawerLayout, "You selected: " + e.MenuItem.TitleFormatted, Snackbar.LengthLong)
+                 //   .Show();
 
                 drawerLayout.CloseDrawers();
             };
@@ -97,21 +98,26 @@ namespace WeblayerApp.Activities
             {
                 case 0:
                     fragment = Fragment_Noticia.NewInstance();
+                    this.Title = "Home";
                     break;
                 case 1:
                     fragment = Fragment_Embarcador.NewInstance();
+                    this.Title = "w/embarcador";
                     break;
 
                 case 2:
                     fragment = Fragment_Vendas.NewInstance();
+                    this.Title = "w/vendas";
                     break;
 
                 case 3:
                     fragment = Fragment_Suporte.NewInstance();
+                    this.Title = "w/suporte";
                     break;
 
                 case 4:
                     fragment = Fragment_Contato.NewInstance();
+                    this.Title = "w/contato";
                     break;
             }
 
@@ -130,6 +136,9 @@ namespace WeblayerApp.Activities
             }
             return base.OnOptionsItemSelected(item);
         }
+
+        
+
     }
 }
 

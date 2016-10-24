@@ -1,3 +1,4 @@
+using Android.Content;
 using Android.OS;
 using Android.Support.V4.App;
 using Android.Views;
@@ -6,7 +7,7 @@ using Android.Webkit;
 
 namespace WeblayerApp.Fragments
 {
-    public class Fragment_Noticia:Fragment
+    public class Fragment_Noticia : Fragment
     {
         WebView web_view;
         View View;
@@ -19,8 +20,8 @@ namespace WeblayerApp.Fragments
             web_view.Settings.JavaScriptEnabled = true;
             web_view.LoadUrl("http://www.weblayer.com.br/noticias-mobile/");
 
-            web_view.SetWebViewClient(new webview());
-
+            web_view.SetWebViewClient(new Webview());
+            
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
 
             return View;
@@ -31,9 +32,6 @@ namespace WeblayerApp.Fragments
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-          
-
         }
 
 
@@ -42,11 +40,9 @@ namespace WeblayerApp.Fragments
             var frag1 = new Fragment_Noticia { Arguments = new Bundle() };
             return frag1;
         }
-
-
+           
        
 
-        
 
     }
 }
