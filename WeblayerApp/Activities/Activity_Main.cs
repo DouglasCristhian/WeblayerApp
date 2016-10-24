@@ -10,29 +10,30 @@ using WeblayerApp.Fragments;
 using Android.Support.V7.App;
 using Android.Support.V4.View;
 using Android.Support.Design.Widget;
+using Android.Webkit;
 
 namespace WeblayerApp.Activities
 {
     [Activity(Label = "Home", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, Icon = "@drawable/Icon")]
-    public class MainActivity : BaseActivity
+    public class Activity_Main : Activity_Base
     {
-
+        //WebView web_view;
         DrawerLayout drawerLayout;
         NavigationView navigationView;
+        Android.Support.V4.App.Fragment fragment;
 
         protected override int LayoutResource
         {
             get
             {
-                return Resource.Layout.main;
+                return Resource.Layout.Activity_Main;
             }
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-
+           
             drawerLayout = this.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
 
             //Set hamburger items menu
@@ -91,26 +92,26 @@ namespace WeblayerApp.Activities
 
             oldPosition = position;
 
-            Android.Support.V4.App.Fragment fragment = null;
+            
             switch (position)
             {
                 case 0:
-                    fragment = homeNoticia.NewInstance();
+                    fragment = Fragment_Noticia.NewInstance();
                     break;
                 case 1:
-                    fragment = Embarcador.NewInstance();
+                    fragment = Fragment_Embarcador.NewInstance();
                     break;
 
                 case 2:
-                    fragment = Vendas.NewInstance();
+                    fragment = Fragment_Vendas.NewInstance();
                     break;
 
                 case 3:
-                    fragment = Suporte.NewInstance();
+                    fragment = Fragment_Suporte.NewInstance();
                     break;
 
                 case 4:
-                    fragment = Contato.NewInstance();
+                    fragment = Fragment_Contato.NewInstance();
                     break;
             }
 

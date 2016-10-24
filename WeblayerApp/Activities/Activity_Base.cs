@@ -12,7 +12,7 @@ using Android.Support.V7.Widget;
 
 namespace WeblayerApp.Activities
 {
-    public abstract class BaseActivity : AppCompatActivity
+    public abstract class Activity_Base : AppCompatActivity
     {
         public Toolbar Toolbar
         {

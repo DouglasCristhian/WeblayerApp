@@ -4,7 +4,7 @@ using Android.Views;
 
 namespace WeblayerApp.Fragments
 {
-    public class Suporte : Fragment
+    public class Fragment_Vendas : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -13,9 +13,9 @@ namespace WeblayerApp.Fragments
             // Create your fragment here
         }
 
-        public static Suporte NewInstance()
+        public static Fragment_Vendas NewInstance()
         {
-            var frag1 = new Suporte { Arguments = new Bundle() };
+            var frag1 = new Fragment_Vendas { Arguments = new Bundle() };
             return frag1;
         }
 
@@ -23,7 +23,7 @@ namespace WeblayerApp.Fragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
-            return inflater.Inflate(Resource.Layout.Suporte, null);
+            return inflater.Inflate(Resource.Layout.Vendas, null);
         }
     }
 }

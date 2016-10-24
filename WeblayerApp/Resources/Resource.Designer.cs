@@ -1775,8 +1775,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0048
 			public const int contentPanel = 2131427400;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int content_frame = 2131427436;
+			// aapt resource value: 0x7f0b0069
+			public const int content_frame = 2131427433;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int custom = 2131427404;
@@ -1796,8 +1796,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b000d
 			public const int disableHome = 2131427341;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int drawer_layout = 2131427433;
+			// aapt resource value: 0x7f0b0066
+			public const int drawer_layout = 2131427430;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int dropdown = 2131427357;
@@ -1898,8 +1898,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b007e
 			public const int nav_home_vendas = 2131427454;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int nav_view = 2131427437;
+			// aapt resource value: 0x7f0b006a
+			public const int nav_view = 2131427434;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int never = 2131427354;
@@ -1988,11 +1988,11 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0012
 			public const int showTitle = 2131427346;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int snackbar_action = 2131427432;
+			// aapt resource value: 0x7f0b006e
+			public const int snackbar_action = 2131427438;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int snackbar_text = 2131427431;
+			// aapt resource value: 0x7f0b006d
+			public const int snackbar_text = 2131427437;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int split_action_bar = 2131427335;
@@ -2027,8 +2027,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b004a
 			public const int textSpacerNoButtons = 2131427402;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int textView1 = 2131427430;
+			// aapt resource value: 0x7f0b006b
+			public const int textView1 = 2131427435;
 			
 			// aapt resource value: 0x7f0b0075
 			public const int time = 2131427445;
@@ -2039,11 +2039,11 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0046
 			public const int title_template = 2131427398;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int toolbar = 2131427435;
+			// aapt resource value: 0x7f0b0068
+			public const int toolbar = 2131427432;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int toolbar_layout = 2131427434;
+			// aapt resource value: 0x7f0b0067
+			public const int toolbar_layout = 2131427431;
 			
 			// aapt resource value: 0x7f0b0036
 			public const int top = 2131427382;
@@ -2060,8 +2060,8 @@ namespace WeblayerApp
 			// aapt resource value: 0x7f0b0009
 			public const int view_offset_helper = 2131427337;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int webview = 2131427438;
+			// aapt resource value: 0x7f0b006c
+			public const int webview = 2131427436;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int withText = 2131427355;
@@ -2192,7 +2192,7 @@ namespace WeblayerApp
 			public const int abc_simple_dropdown_hint = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Contato = 2130903065;
+			public const int Activity_Main = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
 			public const int design_navigation_item = 2130903066;
@@ -2210,70 +2210,70 @@ namespace WeblayerApp
 			public const int design_navigation_menu = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int embarcador = 2130903071;
+			public const int fragment1 = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int fragment1 = 2130903072;
+			public const int Fragment_Contato = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int layout_snackbar = 2130903073;
+			public const int Fragment_Embarcador = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int layout_snackbar_include = 2130903074;
+			public const int Fragment_Noticia = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int main = 2130903075;
+			public const int Fragment_Suporte = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int nav_header2 = 2130903076;
+			public const int Fragment_Vendas = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int NoticiasHome = 2130903077;
+			public const int layout_snackbar = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_media_action = 2130903078;
+			public const int layout_snackbar_include = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_media_cancel_action = 2130903079;
+			public const int nav_header = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_big_media = 2130903080;
+			public const int notification_media_action = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_big_media_narrow = 2130903081;
+			public const int notification_media_cancel_action = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_lines = 2130903082;
+			public const int notification_template_big_media = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_media = 2130903083;
+			public const int notification_template_big_media_narrow = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_template_part_chronometer = 2130903084;
+			public const int notification_template_lines = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_template_part_time = 2130903085;
+			public const int notification_template_media = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int select_dialog_item_material = 2130903086;
+			public const int notification_template_part_chronometer = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int select_dialog_multichoice_material = 2130903087;
+			public const int notification_template_part_time = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int select_dialog_singlechoice_material = 2130903088;
+			public const int select_dialog_item_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int Suporte = 2130903089;
+			public const int select_dialog_multichoice_material = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int support_simple_spinner_dropdown_item = 2130903090;
+			public const int select_dialog_singlechoice_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int toolbar = 2130903091;
+			public const int support_simple_spinner_dropdown_item = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int Vendas = 2130903092;
+			public const int toolbar = 2130903092;
 			
 			static Layout()
 			{
