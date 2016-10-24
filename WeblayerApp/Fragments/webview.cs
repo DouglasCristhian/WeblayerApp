@@ -14,7 +14,7 @@ using Android.Webkit;
 namespace WeblayerApp.Fragments
 {
     [Activity(Label = "webview")]
-    public class webview : WebViewClient
+    public class Webview : WebViewClient
     {
         public override bool ShouldOverrideUrlLoading(WebView view, string url)
         {

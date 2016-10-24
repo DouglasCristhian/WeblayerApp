@@ -71,7 +71,7 @@
     <Compile Include="Fragments\Fragment_Noticia.cs" />
     <Compile Include="Fragments\Fragment_Suporte.cs" />
     <Compile Include="Fragments\Fragment_Vendas.cs" />
-    <Compile Include="Fragments\webview.cs" />
+    <Compile Include="Fragments\Webview.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activities\Activity_Base.cs" />
